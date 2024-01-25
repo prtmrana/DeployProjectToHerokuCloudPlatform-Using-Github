@@ -1,0 +1,19 @@
+step 1-- create the project 
+step2--create a new repository in the github 
+step 3-- go to project folder in the P.C
+step 4--open GITBash from the folder(rightclick->click on Gitbash )
+step 5--- command for GIt--->>>>>
+                 1-->git init
+                 2-->git add .
+                 3-->git commit -m "any message"
+                 4-->git status
+                 5-->git remote add origin "paste link here"
+                 6-->git status
+                 7-->git push -u origin master 
+
+by this the project will be pushed to Github account
+
+    /// now the steps to deploy that project to heroku
+
+go to heroku.com----->create a acccount---->click on NEW<>  (on the right hand top in the navabar)------>create new app---->fill the details --->click on create app----
+----->click on github---->give the repo name ----->connect----->choose the branch ---->deploy Branch----wait---->VIEW
